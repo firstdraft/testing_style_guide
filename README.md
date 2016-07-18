@@ -18,3 +18,7 @@ Although CircleCI build queue time is a consideration.
 ### Copy guidelines
 
 To produce the best output for students when using `--format documentation`, 
+
+### Notes
+
+ - As of now, can't use `shoulda-matchers` -- nowhere to put points metadata, and throws an exception that halts test suite when a constant is uninitialized.
